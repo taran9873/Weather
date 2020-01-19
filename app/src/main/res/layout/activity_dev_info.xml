@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dev_info">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:id="@+id/address_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"></Space>
+
+            <ImageView
+                android:id="@+id/github"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/github_image" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"></Space>
+
+            <ImageView
+                android:id="@+id/linkedin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/linkedin" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"></Space>
+
+            <ImageView
+                android:id="@+id/whatsapp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/whatsapp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"></Space>
+
+            <ImageView
+                android:id="@+id/gmail"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/gmail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="210dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credits"
+                android:textSize="40sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="392dp"
+            android:layout_height="284dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="175dp"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Background Credits"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unsplash.com"
+                android:textColor="#000000"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Icon credits"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="flaticon.com"
+                android:textColor="#000000"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="flaticon.com/authors/pixel-perfect"
+                android:textColor="#000000"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="flaticon.com/authors/freepik"
+                android:textColor="#000000"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="97dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="189dp"
+            android:layout_marginBottom="89dp"
+            android:text="Made with"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="141dp"
+            android:layout_marginBottom="99dp"
+            android:src="@drawable/love" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="86dp"
+            android:layout_marginBottom="60dp"
+            android:text="By Tarandeep Singh"
+            android:textColor="#FFFF66"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
