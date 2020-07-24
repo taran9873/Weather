@@ -6,6 +6,6 @@
 
 # Images
 
-![img1](https://drive.google.com/file/d/1RxZqqv9KgmS_7CP2t_n0UJhEC3LECNHf/view?usp=sharing)
+![img1](https://github.com/taran9873/Weather/blob/master/weather_img1.jpg)
 
-![img2](https://drive.google.com/file/d/1Fc1lARB8OmDJhHnGmB5A6SAgss3WpSIa/view?usp=sharing)
+![img2](https://github.com/taran9873/Weather/blob/master/weather_img2.jpg)
